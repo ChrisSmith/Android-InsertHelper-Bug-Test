@@ -1,0 +1,1 @@
+Bug in Android's InsertHelper.insert() method when used on a table with a constraint on the columns being inserted, even though the constraint isn't being violated. The values are inserted but the method returns -1 (error) and logs an error message in Logcat. Inserting the same values with bind() works as expected.

@@ -1,0 +1,55 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:orientation="vertical"
+    >
+    
+    <Button
+        android:id="@+id/button0"
+        android:text="Test Binding"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClick"
+	/>        
+
+     <Button
+        android:id="@+id/button1"
+        android:text="Test Insert"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClick"
+	/>    
+	
+    <Button
+        android:id="@+id/button2"
+        android:text="List DB Contents"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClick"
+		/>        
+
+    <Button
+        android:id="@+id/button3"
+        android:text="Delete Contents"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClick"
+		/>        
+			
+    <ScrollView 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        >
+
+     	<TextView
+  	    android:id="@+id/text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        tools:context=".MainActivity" />
+           
+        
+    </ScrollView>
+    
+</LinearLayout>
